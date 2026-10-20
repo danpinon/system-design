@@ -1,0 +1,10 @@
+body {
+    color: #171717;
+    background-color: #fff;
+}
+
+.playground {
+    max-width: 960px;
+    margin-inline: auto;
+    padding: 48px 24px;
+}
