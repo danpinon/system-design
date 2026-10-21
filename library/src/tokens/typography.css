@@ -1,0 +1,15 @@
+:root {
+    --ds-font-family-sans: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+
+    --ds-font-size-xs: 0.75rem; /* 12px */
+    --ds-font-size-sm: 0.875rem; /* 14px */
+    --ds-font-size-md: 1rem; /* 16px */
+    --ds-font-size-lg: 1.25rem; /* 20px */
+
+    --ds-font-weight-regular: 400;
+
+    --ds-line-height-xs: 1rem; /* 16px */
+    --ds-line-height-sm: 1.25rem /* 20px */
+}
