@@ -1,6 +1,6 @@
 import './playground.css'
 
-function App() {
+function App(): React.JSX.Element {
   return (
     <main className="playground">
       <h1>Design System</h1>

@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: var(--ds-font-family-sans);
+  min-height: 100vh;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
