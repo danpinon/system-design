@@ -1,0 +1,51 @@
+:root {
+    --ds-color-white: #ffffff;
+    
+    --ds-color-indigo-700: #4338CA;
+    --ds-color-indigo-200: #C7D2FE;
+    --ds-color-indigo-50: #EEF2FF;
+
+    --ds-color-green-700: #15803D;
+    --ds-color-green-200: #BBF7D0;
+    --ds-color-green-50: #F0FDF4;
+
+    --ds-color-amber-700: #B45309;
+    --ds-color-amber-200: #FDE68A;
+    --ds-color-amber-50: #FFFBEB;
+
+    --ds-color-red-600: #DC2626;
+    --ds-color-red-200: #FECACA;
+    --ds-color-red-50: #FEF2F2;
+    
+    --ds-color-neutral-900: #171717;
+    --ds-color-neutral-600: #525252;
+    --ds-color-neutral-200: #E5E5E5;
+    --ds-color-neutral-50: #E6E6E6;
+
+     --ds-color-gray-50: #F9FAFB;
+
+    /* Neutral */
+    --ds-color-neutral-background: var(--ds-color-neutral-50);
+    --ds-color-neutral-border: var(--ds-color-neutral-200);
+    --ds-color-neutral-text: var(--ds-color-neutral-600);
+    
+    /* Danger */
+    --ds-color-danger-background: var(--ds-color-red-50);
+    --ds-color-danger-border: var(--ds-color-red-200);
+    --ds-color-danger-text: var(--ds-color-red-600);
+    
+    /* Warning */
+    --ds-color-warning-background: var(--ds-color-amber-50);
+    --ds-color-warning-border: var(--ds-color-amber-200);
+    --ds-color-warning-text: var(--ds-color-amber-700);
+    
+    /* Success */
+    --ds-color-success-background: var(--ds-color-green-50);
+    --ds-color-success-border: var(--ds-color-green-200);
+    --ds-color-success-text: var(--ds-color-green-700);
+    
+    /* Info */
+    --ds-color-info-background: var(--ds-color-indigo-50);
+    --ds-color-info-border: var(--ds-color-indigo-200);
+    --ds-color-info-text: var(--ds-color-indigo-700);
+}
