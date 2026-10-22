@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 body {
     color: #171717;
     background-color: #fff;
@@ -7,4 +11,15 @@ body {
     max-width: 960px;
     margin-inline: auto;
     padding: 48px 24px;
+}
+
+.badge-examples {
+    width: 100%;
+    max-width: 240px;
+    display: grid;
+    justify-items: start;
+    justify-content: start;
+    align-items: center;
+    grid-template-columns: repeat(3, auto);
+    gap: 24px;
 }
