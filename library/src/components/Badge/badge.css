@@ -1,0 +1,65 @@
+.ds-badge {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+
+    font-family: var(--ds-font-family-sans);
+    font-weight: var(--ds-font-weight-regular);
+
+    outline: var(--ds-border-width-1) solid;
+    border-radius: var(--ds-radius-full);
+}
+
+/* Sizes */
+.ds-badge--sm {
+    font-size: var(--ds-font-size-xs);
+    line-height: var(--ds-line-height-xs);
+    padding: var(--ds-space-1) var(--ds-space-3);
+}
+
+.ds-badge--md {
+    font-size: var(--ds-font-size-sm);
+    line-height: var(--ds-line-height-sm);
+    padding: var(--ds-space-1) var(--ds-space-4);
+}
+
+.ds-badge--lg {
+    font-size: var(--ds-font-size-sm);
+    line-height: var(--ds-line-height-sm);
+    padding: var(--ds-space-2) var(--ds-space-5);
+}
+
+/* Neutral Variant */
+.ds-badge--neutral {
+    color: var(--ds-color-neutral-text);
+    background-color: var(--ds-color-neutral-background);
+    border-color: var(--ds-color-neutral-border);
+}
+
+/* Neutral Danger */
+.ds-badge--danger {
+    color: var(--ds-color-danger-text);
+    background-color: var(--ds-color-danger-background);
+    border-color: var(--ds-color-danger-border);
+}
+
+/* Neutral Warning */
+.ds-badge--warning {
+    color: var(--ds-color-warning-text);
+    background-color: var(--ds-color-warning-background);
+    border-color: var(--ds-color-warning-border);
+}
+
+/* Neutral Success */
+.ds-badge--success {
+    color: var(--ds-color-success-text);
+    background-color: var(--ds-color-success-background);
+    border-color: var(--ds-color-success-border);
+}
+
+/* Neutral Info */
+.ds-badge--info {
+    color: var(--ds-color-info-text);
+    background-color: var(--ds-color-info-background);
+    border-color: var(--ds-color-info-border);
+}

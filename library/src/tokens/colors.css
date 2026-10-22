@@ -19,14 +19,13 @@
     
     --ds-color-neutral-900: #171717;
     --ds-color-neutral-600: #525252;
-    --ds-color-neutral-200: #E5E5E5;
     --ds-color-neutral-50: #E6E6E6;
 
-     --ds-color-gray-50: #F9FAFB;
+    --ds-color-gray-50: #F9FAFB;
 
     /* Neutral */
-    --ds-color-neutral-background: var(--ds-color-neutral-50);
-    --ds-color-neutral-border: var(--ds-color-neutral-200);
+    --ds-color-neutral-background: var(--ds-color-gray-50);
+    --ds-color-neutral-border: var(--ds-color-neutral-50);
     --ds-color-neutral-text: var(--ds-color-neutral-600);
     
     /* Danger */
