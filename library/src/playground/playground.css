@@ -9,12 +9,13 @@ body {
 
 .playground {
     max-width: 960px;
-    margin-inline: auto;
-    padding: 48px 24px;
 }
 
 .badge-examples {
+    margin-inline: auto;
     width: 100%;
+    padding-top: 200px;
+    
     max-width: 240px;
     display: grid;
     justify-items: start;

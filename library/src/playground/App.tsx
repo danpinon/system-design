@@ -4,8 +4,8 @@ import './playground.css'
 function App(): React.JSX.Element {
   return (
     <main className="playground">
-      <h1>Design System</h1>
-      <p>Development space for our components</p>
+      {/* <h1>Design System</h1>
+      <p>Development space for our components</p> */}
 
       <div className="badge-examples">
         <Badge size="sm" variant="neutral">Label</Badge>
