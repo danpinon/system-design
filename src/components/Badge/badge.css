@@ -33,33 +33,33 @@
 .ds-badge--neutral {
     color: var(--ds-color-neutral-text);
     background-color: var(--ds-color-neutral-background);
-    border-color: var(--ds-color-neutral-border);
+    outline-color: var(--ds-color-neutral-border);
 }
 
 /* Neutral Danger */
 .ds-badge--danger {
     color: var(--ds-color-danger-text);
     background-color: var(--ds-color-danger-background);
-    border-color: var(--ds-color-danger-border);
+    outline-color: var(--ds-color-danger-border);
 }
 
 /* Neutral Warning */
 .ds-badge--warning {
     color: var(--ds-color-warning-text);
     background-color: var(--ds-color-warning-background);
-    border-color: var(--ds-color-warning-border);
+    outline-color: var(--ds-color-warning-border);
 }
 
 /* Neutral Success */
 .ds-badge--success {
     color: var(--ds-color-success-text);
     background-color: var(--ds-color-success-background);
-    border-color: var(--ds-color-success-border);
+    outline-color: var(--ds-color-success-border);
 }
 
 /* Neutral Info */
 .ds-badge--info {
     color: var(--ds-color-info-text);
     background-color: var(--ds-color-info-background);
-    border-color: var(--ds-color-info-border);
+    outline-color: var(--ds-color-info-border);
 }
