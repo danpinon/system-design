@@ -1,34 +1,20 @@
-import { Badge } from '../components/Badge/Badge'
+import { Route, Routes, Navigate } from 'react-router'
+import PlaygroundLayout from './layouts/PlaygroundLayout'
+import ComponentsPage from './pages/ComponentsPage'
+import BadgesPage from './pages/BadgesPage'
 import './playground.css'
 
-function App(): React.JSX.Element {
+function App() {
   return (
-    <main className="playground">
-      {/* <h1>Design System</h1>
-      <p>Development space for our components</p> */}
+    <Routes>
+      <Route element={<PlaygroundLayout />}>
+        <Route path="/" element={<ComponentsPage />} />
+      </Route>
 
-      <div className="badge-examples">
-        <Badge size="sm" variant="neutral">Label</Badge>
-        <Badge size="md" variant="neutral">Label</Badge>
-        <Badge size="lg" variant="neutral">Label</Badge>
+      <Route path="/badges" element={<BadgesPage />} />
 
-        <Badge size="sm" variant="danger">Label</Badge>
-        <Badge size="md" variant="danger">Label</Badge>
-        <Badge size="lg" variant="danger">Label</Badge>
-
-        <Badge size="sm" variant="warning">Label</Badge>
-        <Badge size="md" variant="warning">Label</Badge>
-        <Badge size="lg" variant="warning">Label</Badge>
-
-        <Badge size="sm" variant="success">Label</Badge>
-        <Badge size="md" variant="success">Label</Badge>
-        <Badge size="lg" variant="success">Label</Badge>
-
-        <Badge size="sm" variant="info">Label</Badge>
-        <Badge size="md" variant="info">Label</Badge>
-        <Badge size="lg" variant="info">Label</Badge>
-      </div>
-    </main>
+      <Route path="*" element={<Navigate to="/" replace />} />
+    </Routes>
   )
 }
 
