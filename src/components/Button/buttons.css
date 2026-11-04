@@ -26,6 +26,7 @@ outline: 4px
     --_border-width: 0;
     --_border-color: transparent;
     --_ring: none;
+    --_height: unset;
     --_round: var(--ds-radius-2);
     --_padding-block: none;
     --_padding-inline: none;
@@ -226,7 +227,6 @@ outline: 4px
 .ds-button--md {
     --_padding-block: var(--ds-space-5);
     --_padding-inline: var(--ds-space-7);
-    --_height: 2.5rem;
     --_font: var(--ds-text-sm); /* 14/20 · 500 */
     & .ds-icon {
         --_size: 1.43em;
@@ -240,7 +240,6 @@ outline: 4px
 .ds-button--lg {
     --_padding-block: var(--ds-space-5);
     --_padding-inline: var(--ds-space-8);
-    --_height: 2.75rem; /* 44px */
     --_font: var(--ds-text-md); /* 16/24 · 500 */
     & .ds-icon {
         --_size: 1.25em;
@@ -254,7 +253,6 @@ outline: 4px
 .ds-button--xl {
     --_padding-block: var(--ds-space-6);
     --_padding-inline: var(--ds-space-10);
-    --_height: 3rem; /* 48px */
     --_font: var(--ds-text-md); /* 16/24 · 500 */
     & .ds-icon {
         --_size: 1.25em;
@@ -268,7 +266,6 @@ outline: 4px
 .ds-button--2x {
     --_padding-block: var(--ds-space-8);
     --_padding-inline: var(--ds-space-12);
-    --_height: 3.75rem; /* 60px */
     --_font: var(--ds-text-lg); /* 18/28 · 500 */
     & .ds-icon {
         --_size: 1.334em;
@@ -284,23 +281,19 @@ outline: 4px
 :is(.ds-button--link-color, .ds-button--link-gray).ds-button--md {
     --_padding-block: var(--ds-space-0);
     --_padding-inline: var(--ds-space-0);
-    --_height: unset;
 }
 
 :is(.ds-button--link-color, .ds-button--link-gray).ds-button--lg {
     --_padding-block: var(--ds-space-0);
     --_padding-inline: var(--ds-space-0);
-    --_height: unset;
 }
 
 :is(.ds-button--link-color, .ds-button--link-gray).ds-button--xl {
     --_padding-block: var(--ds-space-0);
     --_padding-inline: var(--ds-space-0);
-    --_height: unset;
 }
 
 :is(.ds-button--link-color, .ds-button--link-gray).ds-button--2x {
     --_padding-block: var(--ds-space-0);
     --_padding-inline: var(--ds-space-0);
-    --_height: unset;
 }
