@@ -1,0 +1,9 @@
+.ds-icon {
+    /* Private slots with defaults */
+    --_size: 1em;
+    --_color: currentColor;
+    width: var(--_size);
+    height: var(--_size);
+    fill: var(--_color);
+    flex-shrink: 0;
+}

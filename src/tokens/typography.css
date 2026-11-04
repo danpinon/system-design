@@ -1,17 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-    --ds-font-family-sans: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-    sans-serif;
+    --ds-font-family-sans:
+        "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
 
     --ds-font-size-xs: 0.75rem; /* 12px */
     --ds-font-size-sm: 0.875rem; /* 14px */
     --ds-font-size-md: 1rem; /* 16px */
-    --ds-font-size-lg: 1.25rem; /* 20px */
+    --ds-font-size-lg: 1.125rem; /* 18px */
+    --ds-font-size-xl: 1.25rem; /* 20px */
 
     --ds-font-weight-regular: 400;
+    --ds-font-weight-medium: 500;
 
     --ds-line-height-xs: 1rem; /* 16px */
-    --ds-line-height-sm: 1.25rem /* 20px */
+    --ds-line-height-sm: 1.25rem; /* 20px */
+    --ds-line-height-md: 1.5rem; /* 24px */
+    --ds-line-height-lg: 1.75rem; /* 28px */
+
+    /* Fonts */
+    --ds-text-sm: var(--ds-font-weight-medium)
+        var(--ds-font-size-sm)/var(--ds-line-height-sm)
+        var(--ds-font-family-sans);
+    --ds-text-md: var(--ds-font-weight-medium)
+        var(--ds-font-size-md)/var(--ds-line-height-md)
+        var(--ds-font-family-sans);
+    --ds-text-lg: var(--ds-font-weight-medium)
+        var(--ds-font-size-lg)/var(--ds-line-height-lg)
+        var(--ds-font-family-sans);
 }
