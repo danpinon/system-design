@@ -273,6 +273,7 @@ outline: 4px
     &.ds-button--icon-only {
         --_padding-block: var(--ds-space-8);
         --_padding-inline: var(--ds-space-8);
+        --_height: 3.5rem; /* 56px */
     }
 }
 
