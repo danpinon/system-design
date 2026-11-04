@@ -48,6 +48,29 @@ body {
     gap: 24px;
 }
 
+.buttons-example {
+    margin-top: 112px;
+    margin-inline: auto;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 48px;
+    padding-inline: 32px;
+}
+
+@media (width <= 375px) {
+    .buttons-example {
+        padding-inline: 24px;
+    }
+}
+
+.buttons-example > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .page {
     max-width: 960px;
     width: 100%;

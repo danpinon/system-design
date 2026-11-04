@@ -3,6 +3,7 @@ import { NavLink, Outlet } from 'react-router'
 const NAV_ITEMS = [
   { to: '/', label: 'Components', end: true },
   { to: '/badges', label: 'Badge', end: false },
+  { to: '/buttons', label: 'Button', end: false },
 ] as const
 
 function PlaygroundLayout() {
